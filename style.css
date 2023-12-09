@@ -97,7 +97,7 @@ body {
     transform: translateX(-50%);
     width: 20vw;
     height: 20vh;
-    background: url('/img/bus.png') no-repeat center center;
+    background: url('/bus.png') no-repeat center center;
     background-size: contain;
     transition: left 6s linear; 
 }
