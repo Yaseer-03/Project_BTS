@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Johns Bus Tracking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="institution-header">
+        <img src="/img/sjcet.png" alt="St. Johns Institution Logo" id="institution-logo">
+        <div id="institution-name">
+            <h1>Welcome to St. Johns Institutions</h1>
+            <h1>Bus Tracking System</h1>
+        </div>
+    </div>
+
+    <div id="welcome-message">
+        <h3>We're glad to have you on board!</h3>
+        <p>Explore real-time bus tracking and stay informed about your commute.</p>
+    </div>
+
+    <div class="container">
+        <div class="road">
+            <!-- Add multiple white lines here -->
+            <div class="road-line"></div>
+            <div class="road-line"></div>
+            <div class="road-line"></div>
+            <div class="location-marker"></div> <!-- External location marker -->
+        </div>
+        <div class="bus" id="bus"></div>
+    </div>
+
+    <button id="track-button" disabled>TRACK</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
