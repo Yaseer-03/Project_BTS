@@ -140,7 +140,7 @@ body {
 }
 
 /* Responsive Styling */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     #institution-logo {
         width: 60px;
         margin-right: 8px;
@@ -163,12 +163,35 @@ body {
     }
 
     .bus {
+        position: absolute;
+        bottom: 0;
+        left: 20%; /* Set the left position to 0 for starting position */
+        transform: translateX(0);
         width: 30vw;
         height: 15vh;
+        animation: busMoveResponsive 6s linear infinite; /* Adjust the animation duration as needed */
     }
 
     #track-button {
         padding: 8px 16px;
         font-size: 14px;
+    }
+}
+
+@keyframes busMoveResponsive {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(25%);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    75% {
+        transform: translateX(75%);
+    }
+    100% {
+        transform: translateX(100%);
     }
 }
