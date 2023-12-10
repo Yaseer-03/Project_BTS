@@ -50,10 +50,12 @@ body {
 .road {
     position: relative;
     width: 60%;
-    height: 8vw;
+    height: 7vw;
     background: #000;
     overflow: hidden;
     margin: 0 auto;
+    border: 10px solid black;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .road-line {
