@@ -38,6 +38,7 @@ body {
 #welcome-message {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(255, 255, 250, 700);
+    
     padding: 20px;
     border-radius: 10px;
 }
@@ -97,11 +98,11 @@ body {
     height: 20vh;
     background: url('img/bus.png') no-repeat center center;
     background-size: contain;
-    transition: left 6s linear; 
+    transition: left 3s linear; 
 }
 
 .bus.moving {
-    animation: busMove 6s linear infinite;
+    animation: busMove 1s linear infinite;
 }
 
 @keyframes busMove {
