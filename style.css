@@ -169,7 +169,7 @@ body {
         transform: translateX(0);
         width: 30vw;
         height: 15vh;
-        animation: busMoveResponsive 6s linear infinite; /* Adjust the animation duration as needed */
+        animation: busMoveResponsive 4s linear infinite; /* Adjust the animation duration as needed */
     }
 
     #track-button {
