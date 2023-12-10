@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url('/bg.jpg') no-repeat center center fixed;
+    background: url('img/bg.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -86,7 +86,7 @@ body {
     transform: translate(-50%, -50%);
     width: 20px;
     height: 20px;
-    background: url('/location.png') no-repeat center center;
+    background: url('img/location.png') no-repeat center center;
     background-size: contain;
 }
 
@@ -97,7 +97,7 @@ body {
     transform: translateX(-50%);
     width: 20vw;
     height: 20vh;
-    background: url('/bus.png') no-repeat center center;
+    background: url('img/bus.png') no-repeat center center;
     background-size: contain;
     transition: left 6s linear; 
 }
