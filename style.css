@@ -82,14 +82,14 @@ body {
 }
 
 .location-marker {
-    position: absolute;
+    position:absolute;
     top: 50%;
-    right: -20px;
+    right: -1px;
     transform: translate(-50%, -50%);
     width: 20px;
-    height: 20px;
+    height:100px;
     background: url('img/location.png') no-repeat center center;
-    background-size: contain;
+    background-size:200%;
 }
 
 .bus {
